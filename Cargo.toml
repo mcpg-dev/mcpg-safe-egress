@@ -1,6 +1,6 @@
 [package]
 name = "mcpg-safe-egress"
-version = "0.1.0-beta.3"
+version = "0.1.0-beta.4"
 edition = "2024"
 license = "Apache-2.0"
 description = "A strict outbound HTTP client for URLs that untrusted parties supply: refuses any destination that is not globally reachable per the IANA special-purpose registries, denies internal host names, pins the connection to the vetted addresses while keeping the hostname for TLS, never follows redirects, and reports failures as categories that never carry an address."
